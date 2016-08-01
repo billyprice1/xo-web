@@ -693,7 +693,7 @@ var messages = {
   usedResource: 'Used:',
 
   // ---- VM import ---
-  importVmsList: 'Try dropping some backups here, or click to select backups to upload. Accept only .xva files.',
+  importVmsList: 'Try dropping some VMs files here, or click to select VMs to upload. Accept only .xva/.ova files.',
   noSelectedVms: 'No selected VMs.',
   vmImportToPool: 'To Pool:',
   vmImportToSr: 'To SR:',
@@ -703,6 +703,17 @@ var messages = {
   vmImportFailed: 'VM import failed',
   startVmImport: 'Import starting…',
   startVmExport: 'Export starting…',
+  nCpus: 'N CPUs',
+  vmMemory: 'Memory',
+  diskInfo: 'Disk {position} ({capacity})',
+  diskDescription: 'Disk description',
+  noDisks: 'No disks.',
+  noNetworks: 'No networks.',
+  networkInfo: 'Network {name}',
+  noVmImportErrorDescription: 'No description available',
+  vmImportError: 'Error:',
+  vmImportFileType: '{type} file:',
+  vmImportConfigAlert: 'Please to check and/or modify the VM configuration.',
 
   // ---- Tasks ---
   noTasks: 'No pending tasks',
